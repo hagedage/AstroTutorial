@@ -1,4 +1,6 @@
 ---
+import Navigation from '../components/navigation.astro';
+import Footer from '../components/footer.astro';
 import '../styles/global.css';
 
 const pageTitle = "Oh god, get out while you still can";
@@ -13,9 +15,8 @@ const pageTitle = "Oh god, get out while you still can";
 		<title>{pageTitle}</title>
 	</head>
 	<body>
-		<a href="/">Home</a>
-        <a href="/about/">About</a>
-        <a href="/blog/">Blog</a>
+		<Navigation />
 		<h1>Välkommen till Fredriks superhäftiga, superawesome sida</h1>
+		<Footer />
 	</body>
 </html>
